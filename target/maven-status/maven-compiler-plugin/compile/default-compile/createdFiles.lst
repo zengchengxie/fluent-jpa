@@ -4,6 +4,7 @@ com\gitee\xiezengcheng\fluent\jpa\specification\AnnotationSpecification$1.class
 com\gitee\xiezengcheng\fluent\jpa\specification\OrSpecification.class
 com\gitee\xiezengcheng\fluent\jpa\wrapper\PredicateOrWrapper.class
 com\gitee\xiezengcheng\fluent\jpa\annotation\Query.class
+com\gitee\xiezengcheng\fluent\jpa\helper\QueryHelper$1.class
 com\gitee\xiezengcheng\fluent\jpa\specification\AnnotationSpecification.class
 com\gitee\xiezengcheng\fluent\jpa\wrapper\PredicateWrapper$1.class
 com\gitee\xiezengcheng\fluent\jpa\annotation\Query$Type.class
@@ -13,3 +14,4 @@ com\gitee\xiezengcheng\fluent\jpa\specification\AndSpecification.class
 com\gitee\xiezengcheng\fluent\jpa\reflection\SerializableFunction.class
 com\gitee\xiezengcheng\fluent\jpa\wrapper\PredicateWrapper.class
 com\gitee\xiezengcheng\fluent\jpa\constant\FluentConstant.class
+com\gitee\xiezengcheng\fluent\jpa\helper\QueryHelper.class

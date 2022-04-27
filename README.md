@@ -145,8 +145,12 @@ List<QuartzJobLog> quartzJobList = quartzJobLogRepository.findAll(orWrapper.buil
 |AndWrapper<E>|	所有查询条件用and连接  where bean_name=1 and method_name=2	|
 |OrWrapper<E>|	所有查询条件用or连接 where bean_name=1 or method_name=2	|
 
+###### 9.  QueryHelper使用
+```$xslt
+List<QuartzJob> all = quartzJobRepository.findAll(((root, query, criteriaBuilder) -> QueryHelper.toPredicate(root, quartzJobQuery, criteriaBuilder)));
+```
 
-###### 9.  关于Join
+###### 10.  关于Join
 支持Join查询，但不推荐使用，可以考虑分开查询
 ```
 1 注解查询

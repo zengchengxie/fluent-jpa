@@ -6,7 +6,7 @@
 
     <groupId>com.gitee.xiezengcheng</groupId>
     <artifactId>fluent-jpa</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <name>Fluent-JPA</name>
     <description>Fluent-JPA 简化JPA的查询工具，拒绝连表查询</description>
 
