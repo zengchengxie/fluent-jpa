@@ -25,7 +25,7 @@ fluent-jpa是JpaSpecificationExecutor中Specification增强工具包,简化查�
 <dependency>
     <groupId>com.gitee.xiezengcheng</groupId>
     <artifactId>fluent-jpa</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 </dependency>
 
 ```
